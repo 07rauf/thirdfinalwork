@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    background-color: white;
+    width: 48%;
+    margin-left: 21%;
+    margin-top: 4%;
+}
+.header1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    width: 100%;
+}
+.currencyconverter{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.firstpart{
+    width: 300px;
+}
+.secondpart{
+    width: 300px;
+}
+.graytext{
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+.graytext p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9F9F9F;
+    width: 100%;
+}
+.container .leftcurrency{
+    display: flex;
+    height: 30px;
+}
+.container .rightcurrency{
+    display: flex;
+    height: 30px;
+}
+.leftcurrency button{
+    cursor: pointer;
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.rightcurrency button {
+    cursor: pointer;
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.input {
+    padding: 0px 15px;
+    margin: 17px 0;
+    height: 102px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.input input {
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    height: 25px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+}
+.leftworkspace {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C6C6C6;
+
+}
+.rightworkspace{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C6C6C6;
+}
+img{
+   width: 100vw;
+}
+.leftcurrency .changecurrency{
+    background-color: #833AE0;
+    color: black;
+}
+.rightcurrency .changecurrency{
+    background-color: #833AE0;
+    color: black;
+}
